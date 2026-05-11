@@ -11,7 +11,7 @@ This template requires Python to be installed. Download it from https://www.pyth
 
 To generate a new sorter, follow the steps below. 
 
-NOTE: Replace `mybandsort` with the name of your band, e.g. `tridentsort`
+NOTE: `mybandsort` is only an example below. Replace it with the name of your band's sorter, e.g. `tridentsort`
 
 1. Go to https://github.com and create a new organization called `mybandsort`
    * This and the New Repository option can be found in the `+` menu at the top right of the page
@@ -23,6 +23,9 @@ NOTE: Replace `mybandsort` with the name of your band, e.g. `tridentsort`
    pip install copier
    copier copy gh:mstie/band-sorter-template .
    ```
+6. Customize the sorter as per the instructions below
+7. Push the changes to your repository
+8. The changes will automatically be build in GitHub actions and published to GitHub pages. Find your site at https://mybandsort.github.io
 
 # Customizing This Sorter
 
