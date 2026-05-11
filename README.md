@@ -13,9 +13,7 @@ To generate a new sorter, run the following steps in a terminal window. Replace 
 
 ```sh
 pip install copier
-copier copy gh:<your_github_username>/sorter-template ./mybandsort.github.io
-# …or from a local checkout:
-copier copy ~/src/sorter-template ./mybandsort.github.io
+copier copy gh:mstie/sorter-template ./mybandsort.github.io
 ```
 
 # Customizing This Sorter
