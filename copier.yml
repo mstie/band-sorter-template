@@ -1,0 +1,36 @@
+_min_copier_version: "9.0"
+_subdirectory: template
+_templates_suffix: ".jinja"
+
+band_name:
+  type: str
+  help: |
+    Display name shown to users. Use the band's preferred stylization
+    including punctuation/case (e.g. "TRiDENT").
+  placeholder: TRiDENT
+
+band_slug:
+  type: str
+  help: |
+    Lowercase slug used in URLs, npm package name, and exported filenames.
+    Must be ASCII letters/numbers/dashes only.
+  placeholder: trident
+
+sorter_url:
+  type: str
+  help: GitHub Pages host (no protocol, no trailing slash).
+  default: "{{ band_slug }}sort.github.io"
+
+official_url:
+  type: str
+  help: Band's official site (no protocol, no trailing slash).
+  placeholder: trident-japan.com
+
+accent_hex:
+  type: str
+  help: |
+    Accent color as #rrggbb. The full palette is derived from this at runtime via color-mix(), so a single value drives
+    the whole theme. Re-run `node scripts/set-accent.mjs <hex>` in the generated repo
+    anytime to change it without re-running copier. See https://htmlcolorcodes.com/color-picker/ to help pick a color.
+  default: "#f45ffe"
+  validator: "{% if accent_hex[0] != '#' or accent_hex|length != 7 %}must be #rrggbb (e.g. #f45ffe){% endif %}"
