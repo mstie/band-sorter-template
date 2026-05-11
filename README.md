@@ -9,12 +9,20 @@ band name, URLs, and accent color swapped in.
 
 This template requires Python to be installed. Download it from https://www.python.org/downloads/.
 
-To generate a new sorter, run the following steps in a terminal window. Replace `mybandsort` with the name of your band, e.g. `tridentsort`
+To generate a new sorter, follow the steps below. 
 
-```sh
-pip install copier
-copier copy gh:mstie/sorter-template ./mybandsort.github.io
-```
+NOTE: Replace `mybandsort` with the name of your band, e.g. `tridentsort`
+
+1. Go to https://github.com and create a new organization called `mybandsort`
+   * This and the New Repository option can be found in the `+` menu at the top right of the page
+2. In that organization, create a repository called `mybandsort.github.io`
+3. Clone the repository to your local computer
+4. Open a terminal and change directories to the local directory of your computer that you cloned your repo to
+5. Run the following steps:
+   ```sh
+   pip install copier
+   copier copy gh:mstie/band-sorter-template .
+   ```
 
 # Customizing This Sorter
 
@@ -44,6 +52,6 @@ re-themes the whole site. You can run it as many times as you want while iterati
 ## Updating an Existing Sorter
 
 `copier update` in the generated repo re-runs the template against the latest
-sorter-template, preserving your answers from `.copier-answers.yml`. Useful for pulling
+band-sorter-template, preserving your answers from `.copier-answers.yml`. Useful for pulling
 in upstream improvements (new sort engine features, CSS tweaks, etc.) without losing
 the band-specific customizations.
