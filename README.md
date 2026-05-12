@@ -7,6 +7,8 @@ band name, URLs, and accent color swapped in.
 
 ## Generating a New Sorter
 
+This template assumes familiarity with using GitHub. If you do not understand GitHub, please look up some tutorials on how to create, pull, edit, and push repositories first.
+
 This template requires Python and Node.js to be installed. Download them from https://www.python.org/downloads/ and https://nodejs.org/en/download.
 
 To generate a new sorter, follow the steps below. 
