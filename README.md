@@ -7,7 +7,7 @@ band name, URLs, and accent color swapped in.
 
 ## Generating a New Sorter
 
-This template requires Python to be installed. Download it from https://www.python.org/downloads/.
+This template requires Python and Node.js to be installed. Download them from https://www.python.org/downloads/ and https://nodejs.org/en/download.
 
 To generate a new sorter, follow the steps below. 
 
