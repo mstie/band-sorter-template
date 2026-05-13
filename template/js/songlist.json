@@ -1,0 +1,11 @@
+[
+  {
+    "id": "placeholder-album",
+    "title": "Placeholder Album",
+    "year": 2024,
+    "cover": "img/albums/placeholder.jpg",
+    "songs": [
+      { "title": "Placeholder Song" }
+    ]
+  }
+]

@@ -13,7 +13,9 @@ This template requires Python and Node.js to be installed. Download them from ht
 
 To generate a new sorter, follow the steps below. 
 
-NOTE: `mybandsort` is only an example below. Replace it with the name of your band's sorter, e.g. `tridentsort`
+:information: `mybandsort` is only an example below. Replace it with the name of your band's sorter, e.g. `tridentsort`
+
+:warning: This sorter will not work unless you follow the exact steps below. The GitHub URL _must_ be in the format https://github.com/mybandsort/mybandsort.github.io
 
 1. Go to https://github.com and create a new organization called `mybandsort`
    * This and the New Repository option can be found in the `+` menu at the top right of the page
@@ -39,9 +41,9 @@ After generation:
 2. Drop band art into `img/` (`bandphoto.jpg`, `bandlogo.png`, `favicon.png`,
    `apple-touch-icon.png`) and album covers into `img/albums/`. See `img/README.md`.
    * The img/favicon.png and img/apple-touch-icon.png are optional but can be found on the band's website. This is usually located at https://<bandwebsite>/favicon.ico. If it's not there you'll need to find it in the web page's source.
-3. Replace the placeholder album in `js/songlist.js` with the real catalog.
-4. `npm start` to preview locally.
-
+3. Run `npm install && npm start` in a command line or terminal to start the server locally.
+4. Open https://127.0.0.1:8000/editor.html to edit the catalog
+5. Save your catalog per the instructions on the editor page then view the sorter at https://127.0.0.1:8000
 ## Changing the Accent Color
 
 If you want to change the accent colors at any time, run the following with any `#rrggbb` value. Replace `<hexvalue>` with the hex value including the `#`.
