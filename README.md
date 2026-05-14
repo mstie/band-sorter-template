@@ -43,6 +43,7 @@ After generation:
    * The img/favicon.png and img/apple-touch-icon.png are optional but can be found on the band's website. This is usually located at https://<bandwebsite>/favicon.ico. If it's not there you'll need to find it in the web page's source.
 3. Run `npm install && npm start` in a command line or terminal to start the server locally.
 4. Open https://127.0.0.1:8000/editor.html to edit the catalog
+   * It is recommended to download the songlist after adding each album so you don't lose your work
 5. Save your catalog per the instructions on the editor page then view the sorter at https://127.0.0.1:8000
 ## Changing the Accent Color
 
