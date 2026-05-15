@@ -66,4 +66,4 @@ the band-specific customizations.
 
 # Disclosure
 
-This project was created with the assistance of an AI tool (Claude).
+This project was created with the assistance of an AI tool (Claude). Javascript has been tested (tests have not been uploaded).
