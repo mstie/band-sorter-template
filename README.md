@@ -63,3 +63,7 @@ re-themes the whole site. You can run it as many times as you want while iterati
 band-sorter-template, preserving your answers from `.copier-answers.yml`. Useful for pulling
 in upstream improvements (new sort engine features, CSS tweaks, etc.) without losing
 the band-specific customizations.
+
+# Disclosure
+
+This project was created with the assistance of an AI tool (Claude).
